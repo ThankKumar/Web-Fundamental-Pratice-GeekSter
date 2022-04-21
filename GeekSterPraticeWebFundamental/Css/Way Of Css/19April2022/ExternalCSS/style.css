@@ -1,0 +1,17 @@
+
+body{
+    background-color: orange;
+}
+div{
+    color: black;
+    background-color: limegreen;
+    padding: 5px solid red;
+    border: 10px dotted;
+}
+button{
+    text-align: center;
+    background-color: red;
+    height: 25px;
+    width:100px;
+    border: none;
+}
