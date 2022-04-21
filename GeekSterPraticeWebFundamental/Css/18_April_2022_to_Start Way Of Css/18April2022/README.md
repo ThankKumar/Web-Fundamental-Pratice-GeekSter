@@ -7,8 +7,3 @@
 ###### using inthe element.
 
 ###### Ex-style="color:red; padding:3px"
-
-
-
-
-

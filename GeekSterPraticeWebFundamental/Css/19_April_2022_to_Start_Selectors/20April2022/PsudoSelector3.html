@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>pSudo Selector</title>
+    <style>
+        body{
+            background-color: khaki;
+        }
+p:first-child{
+    color: red;
+}
+p:last-child{
+    color: green;
+}
+p:nth-child(2)
+{
+    color: white;
+}
+        li:first-child{
+            color: red;
+    
+        }
+        li:last-child{
+            color: green;
+        }
+        #u3 li:first-child{
+            color: #000;
+        }
+        #u2 li:nth-child(2){
+            color: azure;
+        }
+        #u4 li:nth-child(odd){
+            color: coral;
+        }
+        #u5 li:nth-child(even){
+            color: limegreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>Psudo Selector Example 3</h1>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, reiciendis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, reiciendis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, reiciendis?</p>
+    </div>
+    <div>
+        <ul >
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>React</li>
+        </ul>
+    </div>
+    <ul id="u2">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+        <li>React</li>
+    </ul>
+    <ul id="u3">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+        <li>React</li>
+    </ul>
+    <h1>odd</h1>
+    <ul id="u4">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+        <li>React</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+        <li>React</li>
+    </ul>
+    <h1>Even</h1>
+    <ul id="u5">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+        <li>React</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+        <li>React</li>
+    </ul>
+</body>
+</html>
