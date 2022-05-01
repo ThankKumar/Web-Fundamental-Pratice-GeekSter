@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FlexBox</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            p{
+                font-weight: 200px;
+            }
+
+            h3{
+                font-weight: 400px;
+            }
+            .container{
+                display: flex; 
+               /* align-items: flex-start; */
+               align-items: flex-end;
+               /* flex-direction: column; */
+               flex-direction: row;
+               /* justify-content: space-evenly; */
+
+                /* justify-content: space-between; */
+                /* justify-content: space-around; */
+                /* justify-content: center; */
+                /* margin-right: -30px; */
+         
+            }
+            .container div{
+                background-color: aqua;
+                border: 3px solid red;
+                height: 400px;
+                /* align-items: stretch; */
+               
+                
+                
+
+
+            }
+            .item1{
+                /* flex: 1; */
+                order: 1;
+                margin-right: 30%;
+                /* /* width: 200%; */
+            }
+            .item2{
+                /* flex: 0; */
+                /* order: 2; */
+                order: 3;
+                /* margin-right: 30%; */
+                /* width: 20%; */
+            }
+            
+            .item3{
+                /* flex: 1; */
+               /* order: 3;  */
+               order: 2;
+               margin-right: 30%;
+               /* width: 20%; */
+            }
+@media (max-width:60px) {
+    .container{
+        flex-direction: column;
+    }
+    
+}
+        </style>
+    </head>
+    <body>
+        <h1>Flex Concept</h1>
+        <div class="container">
+            <div class="item1">
+                <h3>My card 1</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum ab, nemo quos dolore maiores voluptates aspernatur debitis saepe veritatis, labore praesentium asperiores perspiciatis aliquid ullam odio suscipit quidem optio neque quae non natus vel nesciunt explicabo totam. Laboriosam officia assumenda, molestias possimus temporibus animi quia!</p>
+            </div>
+
+            <div class="item2">
+                <h3>My card 2</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum ab, nemo quos dolore maiores voluptates aspernatur debitis saepe veritatis, labore praesentium asperiores perspiciatis aliquid ullam odio suscipit quidem optio neque quae non natus vel nesciunt explicabo totam. Laboriosam officia assumenda, molestias possimus temporibus animi quia!</p>
+            </div>
+
+            <div class="item3">
+                <h3>My card 3</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum ab, nemo quos dolore maiores voluptates aspernatur debitis saepe veritatis, labore praesentium asperiores perspiciatis aliquid ullam odio suscipit quidem optio neque quae non natus vel nesciunt explicabo totam. Laboriosam officia assumenda, molestias possimus temporibus animi quia!</p>
+            </div>
+        </div>
+
+    </body>
+</html>
