@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.container{
+    border:3px solid blue;
+    height: 390px;
+    width:100%;
+    background-color: khaki;
+}
+.relative1{
+position: relative;
+    border:3px solid black;
+    height:70px;
+    width:100%;
+    background-color: red;
+    right: 100px;
+    /* top: 30px; */
+    bottom: 10px;
+
+}
+.relative2{
+    position: relative;
+    border:3px solid black;
+    height:70px;
+    width:100%;
+    background-color: red;
+    left: 20px;
+}
+.relative3{
+    position: relative;
+    border:3px solid black;
+    height:70px;
+    width:100%;
+    background-color: red;
+    top: 10px;
+    /* bottom: 100px; */
+    right: 10px;
+}
+.relative4{
+    position: relative;
+    border:3px solid black;
+    height:70px;
+    width:100%;
+    background-color: red;
+    /* top: 30px; */
+    /* left: 30px; */
+    right: 9px;
+}
+
+    </style>
+</head>
+<body>
+    <h1>relative div is related to container div. you can move relative to position</h1>
+        <div class="container">
+            <div class="relative1"><h1>Child-Div-1</h1></div>
+            <div class="relative2" ><h1>Child-Div-2</h1></div>
+            <div class="relative3"><h1>Child-Div-3</h1></div>
+            <div class="relative4"><h1>Child-Div-4</h1></div>
+        </div><br> <br>
+</body>
+</html>

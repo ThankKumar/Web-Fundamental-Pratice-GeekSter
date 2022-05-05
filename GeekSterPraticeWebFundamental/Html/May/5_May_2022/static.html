@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POsition HTML</title>
+    <style>
+.container{
+    border:3px solid blue;
+    height: 390px;
+    width:100%;
+    background-color: khaki;
+}
+
+.staticdiv1{
+position: static;
+    border:3px solid black;
+    height:70px;
+    width:100%;
+    background-color: red;
+    right: 100px;
+    top: 30px;
+}
+.staticdiv2{
+    position: static;
+    border:3px solid black;
+    height:70px;
+    width:100%;
+    background-color: red;
+    left: 20px;
+}
+.staticdiv3{
+    border:3px solid black;
+    height:70px;
+    width:100%;
+    background-color: red;
+}
+.staticdiv4{
+    border:3px solid black;
+    height:70px;
+    width:100%;
+    background-color: red;
+}
+
+.relative1{
+position: relative;
+    border:3px solid black;
+    height:70px;
+    width:100%;
+    background-color: red;
+    right: 100px;
+    /* top: 30px; */
+    bottom: 10px;
+
+}
+.relative2{
+    position: relative;
+    border:3px solid black;
+    height:70px;
+    width:100%;
+    background-color: red;
+    left: 20px;
+}
+.relative3{
+    position: relative;
+    border:3px solid black;
+    height:70px;
+    width:100%;
+    background-color: red;
+    top: 10px;
+    /* bottom: 100px; */
+    right: 10px;
+}
+.relative4{
+    position: relative;
+    border:3px solid black;
+    height:70px;
+    width:100%;
+    background-color: red;
+    /* top: 30px; */
+    /* left: 30px; */
+    right: 9px;
+}
+
+.absolutex{
+    position: absolute;
+    border:3px solid black;
+    height:70px;
+    width:100%;
+    background-color: red;
+  top: 0px;
+}
+.absolutex{
+    position: absolute;
+    border:3px solid black;
+    height:70px;
+    width:100%;
+    background-color: red;
+  top: 0px;
+}
+
+.absolute2{
+    position: relative;
+    border:3px solid black;
+    height:70px;
+    width:100%;
+    background-color: red;
+    /* top: 30px; */
+    /* left: 30px; */
+    right: 9px;
+}
+.absolute3{
+    position: relative;
+    border:3px solid black;
+    height:70px;
+    width:100%;
+    background-color: red;
+    /* top: 30px; */
+    /* left: 30px; */
+    right: 9px;
+}
+.absolute4{
+    position: relative;
+    border:3px solid black;
+    height:70px;
+    width:100%;
+    background-color: red;
+    /* top: 30px; */
+    /* left: 30px; */
+    right: 9px;
+}
+    </style>
+</head>
+<body>
+    <h1>Five Tyle Of position</h1>
+    <h3>Static</h3>
+    <h3>Relative</h3>
+    <h3>Absolute</h3>
+    <h3>Fixed</h3>
+    <h3>Stickt</h3>
+
+    <h1>Static No effect on Web Browser its static type</h1>
+
+    <div>
+        <div class="container">
+            <div class="staticdiv1"><h1>Child-Div-1</h1></div>
+            <div class="staticdiv2" ><h1>Child-Div-2</h1></div>
+            <div class="staticdiv3"><h1>Child-Div-3</h1></div>
+            <div class="staticdiv4"><h1>Child-Div-4</h1></div>
+        </div><br><br>
+        
+        <h1> Absolute Position with respect to parent div</h1>
+        <div class="container">
+            <div class="absolute1"><h1>Child-Div-1</h1></div>
+            <div class="absolute2" ><h1>Child-Div-2</h1></div>
+            <div class="absolute3"><h1>Child-Div-3</h1></div>
+            <div class="absolute4"><h1>Child-Div-4</h1></div>
+        </div><br><br>
+        <h1>fixed:-Related to browser windows</h1>
+        <div class="container">
+            <div class="fixed1"></div>
+            <div class="fixed2" ></div>
+            <div class="fixed3"></div>
+            <div class="fixed4"></div>
+        </div>
+        <br><br>
+        <h1>sticky:-based on position</h1>
+        <div class="container">
+            <div class="sticky1"></div>
+            <div class="sticky2" ></div>
+            <div class="sticky3"></div>
+            <div class="sticky4"></div>
+        </div>
+    
+    
+    </div>
+    
+   
+</body>
+</html>

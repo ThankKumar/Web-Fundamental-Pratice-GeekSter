@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Iframe</title>
+     <style>
+         #menu section{
+        background: linear-gradient(to left, black,red);
+       padding: 10px;
+       margin-bottom: 30px;
+       text-align: center;  
+       text-shadow: 9px; 
+       
+         }
+         a{
+             color: wheat;
+             text-decoration: none;
+         }
+         .container{
+             display: flex;
+         
+             
+         }
+         #menu{
+             flex: 1;
+             border-right: 5px solid black;
+             padding: 5px;
+             background: linear-gradient(to right, black, blue,red);
+         }
+         #iframe{
+             flex: 4;
+             padding: 5px;
+             display: flex;
+         }
+         iframe{
+             width: 100%;
+             height: 100vh;
+             border: none;
+             /* background-image: linear-gradient(red, yellow); */
+             background-image: linear-gradient(red, yellow, green);
+
+         }
+         .firstframe{
+            height: 100%;
+            width:250px;
+           
+            background: linear-gradient(to left,yellow, khaki,black);
+
+         }
+</style>
+</head>
+<body>
+    <section class="container">
+    <section id="menu">
+        <section>
+            <a href="Mobilepannel.html" target="leftpannel">Mobile</a>
+        </section>
+        <section>
+            <a href="TelevisionPannel.html" target="leftpannel">Television</a>
+        </section>
+        <section>
+            <a href="LaptopPannel.html" target="leftpannel">Laptop</a>
+        </section>
+        <section>
+            <a href="MansPannel.html" target="leftpannel">Mens Clothing</a>
+        </section>
+        <section>
+            <a href="WomenPannel.html" target="leftpannel">WoMens Clothing</a>
+        </section>
+        <section>
+            <a href="#" >UpDatedd Soon</a>
+        </section>
+        <section>
+            <a href="#" >UpDatedd Soon</a>
+        </section>
+        <section>
+            <a href="#">UpDatedd Soon</a>
+        </section>
+    </section>
+     
+    <section id="iframe">
+        <iframe name="leftpannel" class="firstframe" ></iframe>
+
+
+        <iframe name="rightpanel">
+
+        </iframe>
+    </section>
+
+</section>  
+</body>
+</html>
