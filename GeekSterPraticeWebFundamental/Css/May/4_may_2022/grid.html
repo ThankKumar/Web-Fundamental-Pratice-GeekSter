@@ -7,61 +7,69 @@
     <title>Document</title>
     <style>
 .container{
+    /* display: flex; */
+    display: grid;
+    /* grid-template-columns: 200px 300px 400px 500px; */
+    /* grid-template-rows: 200px; */
+    /* grid-template-rows: 50px 50px; */
+    /* grid-template-columns: repeat(4,100px) ; */
+    /* justify-content: right; */
+        /* grid-gap:20px; */
+        /* grid-row-gap:20px; */
+        /* grid-column-gap: 30px; */
+        
+/* grid-template-areas: header header; */
+
+
+
     border:3px solid blue;
     height: 390px;
     width:100%;
     background-color: khaki;
 }
-.relative1{
-position: relative;
+.grid1{
+
     border:3px solid black;
     height:70px;
     width:100%;
     background-color: red;
-    /* right: 100px; */
-    /* top: 30px; */
-    /* bottom: 10px; */
-
+    /* grid-area: header; */
+   
 }
-.relative2{
+.grid2{
+  
+    border:3px solid black;
+    height:70px;
+    width:100%;
+    background-color: red;
+    
+   
+}
+.grid3{
     position: relative;
     border:3px solid black;
     height:70px;
     width:100%;
     background-color: red;
-    left: 20px;
-    /* bottom: 10px; */
+   
 }
-.relative3{
-    position: relative;
+.grid4{
+    
     border:3px solid black;
     height:70px;
     width:100%;
     background-color: red;
-    /* top: 10px; */
-    bottom: 100px;
-    /* right: 10px; */
+   
 }
-.relative4{
-    /* position: relative; */
-    border:3px solid black;
-    height:70px;
-    width:100%;
-    background-color: red;
-    /* top: 30px; */
-    /* left: 30px; */
-    /* right: 9px; */
-}
-
     </style>
 </head>
 <body>
-    <h1>relative div is related to container div. you can move relative to position</h1>
+    <h1>Grid div is related to container div. you can move relative to position</h1>
         <div class="container">
-            <div class="relative1"><h1>Child-Div-1</h1></div>
-            <div class="relative2" ><h1>Child-Div-2</h1></div>
-            <div class="relative3"><h1>Child-Div-3</h1></div>
-            <div class="relative4"><h1>Child-Div-4</h1></div>
+            <div class="grid1"><h1>Child-Div-1</h1></div>
+            <div class="grid2" ><h1>Child-Div-2</h1></div>
+            <div class="grid3"><h1>Child-Div-3</h1></div>
+            <div class="grid4"><h1>Child-Div-4</h1></div>
         </div><br> <br>
 </body>
 </html>
