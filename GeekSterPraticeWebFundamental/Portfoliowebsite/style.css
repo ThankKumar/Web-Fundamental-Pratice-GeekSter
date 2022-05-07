@@ -1,0 +1,90 @@
+
+/* navbar sections */
+.navbar{
+    position: fixed;
+    top: 0%;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0px 0px 8px rgb(0 0 0 /6%);
+}
+ul{
+    list-style-type: none;
+    /* add font */
+    font-family: 'Koulen', cursive;
+    /* font-family: "Lato", sans-serif; */
+    font-weight: 600;
+    margin-top: 0px;
+}
+li{
+    float: left;
+}
+li a {
+display: block;
+padding: 25px;
+background-color: white;
+text-decoration: none;
+color: black;
+}
+/* Banner section */
+.container{
+    width: 100%;
+    margin: 2% 0%;
+    padding: 6% 0%;
+}
+.banner{
+     display: grid;
+     grid-template-columns: repeat(2, 50%);
+     background-color: #9fa08a;
+
+
+}
+.banner .image img{
+    width: 35%;
+    margin-left: 250px;
+    border-radius: 60px;
+
+}
+.banner .content{
+    font-family: 'Koulen', cursive;
+    padding: 6px 0px;
+}
+
+.banner .content .title{
+    font-size: 50px; 
+}
+.banner .content span{
+    font-weight: 800; 
+}
+
+.banner .content .desc{
+    font-size:20px; 
+}
+.banner .content .btn{
+    background-color: blue;
+    font-size: 16px;
+    color: #9fa08a;
+    cursor: pointer;
+    padding: 4px 8px ;
+    border-radius: 30px;
+    border: none;
+    font-family: 'Koulen', cursive;
+}
+ /* Aboutme */
+ .about{
+     display: grid;
+     grid-template-columns: repeat(2, 500);
+ }
+ 
+ .about .image2 img{
+     width: 80%;
+
+ }
+ .about .content{
+    
+    font-family: 'Koulen', cursive;
+    padding:20% 135%;
+ }
+
+ .about .content  {
+
+ }
