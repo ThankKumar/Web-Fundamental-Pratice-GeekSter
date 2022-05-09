@@ -40,7 +40,7 @@
   .banner .image img {
     position: static;
     width: 90%;
-    height: 90%;
+    height: 70%;
     left:15%;
     border-radius:60%;
     box-shadow: black;
@@ -75,13 +75,8 @@
     font-family: "Lato", sans-serif;
   }
   
+  
   /* about me section */
-
-  .imageAbout .img{
-    /* position: relative; */
-   border-radius: 45%;
-   top: 130%;
-  }
   .about {
     display: grid;
     grid-template-columns: repeat(2,50%);
@@ -106,11 +101,14 @@
   .about .content .desc {
     font-size: 19px;
   }
+  
   /* skill section */
+
  section{
     display: grid;
     top: -9px;
  }
+
   .container h2{
    background-color: #373a3b; padding: 1%; text-align: center; color: aliceblue; margin-bottom:0 ;
 border-radius: 15%;  
@@ -146,6 +144,7 @@ box-shadow: 1px 1px 0px #999,
     margin-top: 0;
     color: gray;
 }
+
 .skill:hover{
     padding: 2% 4%;
     background-color: whitesmoke;
@@ -154,71 +153,7 @@ box-shadow: 1px 1px 0px #999,
     border-bottom:5px solid #d1e0e6;
     margin-top: 0;
     color: lightcoral;
-
-
 }
-    /* from section */
-  .free{
-    position: relative;
-    left:40%;
-    right:40%;
-   width:20%;
-   text-align: center;
-    background-color: #6b8363;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: large;
-  }
-    .contactH2{
-      position: relative;
-      left: 40%;
-      right: 40%;
-      background-color: teal;
-      width:18%;
-      border: 5px solid black;
-      color: rgba(0, 0,0,0.7);
-    }
-  .containerForm{
-    display: grid;
-      margin: auto;
-      width:50%;
-      padding:16px;
-      background-color: lightcoral;
-      box-shadow: 20px 20px 20px 0px rgba(0, 0,0,0.7); 
-    }
-    
-     input[type='text']
-{
-   
-   display: grid;
-      width: 100%;
-      padding:8px;
-      margin: 5px 0 22px 0;
-      display: inline-block;
-      border: none;
-      background-color: whitesmoke;
-    } 
-    
-    input[type='text']:focus
-    {
-      
-      background-color:#ddd;
-      outline: none;
-    }
-    
-    .registerbtn{
-      display: grid;
-      background-color: teal;
-      color: white;
-      padding: 16px;
-      border: none;
-      cursor:pointer;
-      width:100%;
-      margin: auto;
-      opacity: 0.8;
-    }
-    .registerbtn:hover{
-      opacity:1;
-    }
 /* footer section */
 .footer{
     display: grid;
@@ -228,47 +163,4 @@ box-shadow: 1px 1px 0px #999,
     height: 500%;
     color: lightcoral;
 
-}
-
-.footerTabel{
-  display: grid;
-}
-a{
- display: grid;
-  text-decoration: none;
-  border: none;
-  background-color: black;
-  color: #6b8363;
-  justify-content: center;
-  padding: 5px;
-}
-.social:hover{
-  background-color: antiquewhite;
-  padding: 5px;
-  border-radius: 10px;
-  border: 3px solid red;
-}
-
-/* Stare Color */
-.checked {
-  color: orange;
-}
-.iconImage{
-  position: relative;
-  height: 45px;
-  top: 15px;
-  border-radius:100px;  
-/* box-shadow: 1px 1px 0px #999,
-1px 1px 0px #6b8363,
-3px 3px 0px #6b8363,
-4px 4px 0px #6b8363,
-5px 5px 0px #6b8363,
-6px 6px 0px #6b8363; */
-}
-
-.iconImage:hover{
-  position: relative;
-  height: 45px;
-  top: 15px;
-  border: 3px solid #6b8363;
 }
