@@ -1,0 +1,205 @@
+@import url(./variable.css);
+
+booy{
+    font-family: "mulish", sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+.navbar{
+    position: fixed;
+    top: 0%;
+    box-shadow: 0px 0px 8px rgba(0 0 0 /6%);
+    width: 100%;
+    background-color: var(--orange-color);
+
+}
+.nav-items ul{
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: 800;
+    margin: 0%;
+    font-family: "mulish", sans-serif;
+}
+.nav-items li {
+    text-decoration: none;
+    /* display: flex; */
+    display: flex;
+    margin: auto;
+    float: right;
+    color: black;
+    padding: 25px;
+
+}
+.nav-items li{
+    float: right;
+}
+.logo h1{
+    margin-left: 20px;
+    padding: 1%;
+    font-size: 28px;
+    font-weight: 400;
+    color: var(--text-color);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+
+}
+.nav-items li a {
+    text-decoration: none;
+    /* display: flex; */
+    display: flex;
+    margin: auto;
+    float: right;
+   background-color: var(--white-color);
+    padding: 25px;
+    color: var(--text-color);
+
+}
+
+
+.container{
+    width: 80%;
+    padding: 4% 0%;
+    display: block;
+    margin: auto;
+}
+/* Banner Section */
+.banner {
+    display: flex;
+    justify-content: space-around;
+
+    background-color: var(--background-color);
+    border-radius: 300px;
+    margin: 80px 60px 0px 50px;
+    width: 95%;
+    padding-top:4;
+}
+.images {
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    margin-left: 10%;margin: 4%;
+   
+    padding: 4% 0%;
+    z-index: 1;
+
+}
+.bannerImg{
+    border-radius: 50%;
+}
+.banner .content{
+    /* display: flex;
+   justify-content: space-around; */
+    padding: 0% 5%;
+
+}
+.banner .content h4{
+    position: relative;
+    font-weight: var(--bold-text);
+    font-size: 13px;
+    line-height: 22px;
+left: 30%;
+    letter-spacing: 6px;
+    color: var(--orange-color);
+}
+.banner .content h2{
+  line-height: 70px;
+  font-weight: 800;
+  font-size: 62px ;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  color: var(--text-color);  
+}
+.banner .content p {
+    font-size: 28px;
+    line-height: 28px;
+    color: var(--text-color);
+    opacity: 0.6;
+
+
+}
+
+
+.content .btn{
+    position: relative;
+    left: 30%;
+    background-color: var(--orange-color);
+    font-size: 25px;
+    border-radius: 3px black;
+    cursor: pointer;
+    font-family: "mulish", sans-serif;
+
+    margin: 2% 0%;
+}
+.content .btn:hover{
+    background-color: var(--text-color);
+    font-size: 25px;
+    border-radius: 3px var(--background-color);
+    cursor: pointer;
+    font-family: "mulish", sans-serif;
+    color:red ;
+    margin: 2% 0%;
+}
+
+/* Featrse Section */
+.features{
+    display: flex;
+    border-bottom: 3px dashed;
+}
+.features .features-wraper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.features-wraper .features{
+    display: flex;
+    align-items: center;
+
+}
+
+.features .icon{
+    color: var(--secondary-color);
+    background-color: var(rgba(214, 227, 335,0.5));
+    padding: 2% 6%;
+
+
+}
+.features .icon{
+    text-align: center;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    border-radius:50% ;
+    font-size: 30px;
+    padding: 1% 3%;
+    color: var(--secondary-color);
+    background-color: var(rgba(214, 227, 335,0.5));
+    padding: 2% 6%;
+    
+
+}
+.features .content {
+    padding: 8%;
+
+}
+.features .content p{
+    font-size: 15px;
+    line-height: 28px;
+    color: blueviolet;
+    margin-bottom: 0px;
+
+}
+.features .content h2{
+font-weight: var(--bold-text);
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0.3%;
+color: var(--text-color);
+margin-bottom: 15px;
+}
