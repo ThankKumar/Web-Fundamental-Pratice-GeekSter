@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survy form</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            background-color:silver;
+        }
+        section{
+           display: flex;
+           justify-content: center;
+          /* flex-direction: column; */
+          order: 0;
+            /* position: relative;
+            align-items: center; */
+            margin-top: 0%;
+            border: 9px solid red;
+        }
+        p{
+            position: relative;
+            margin-top: 2%;
+            left:-22%;
+
+        }
+        form{
+            display: flex;
+           justify-content: center;
+          flex-direction: column;
+          justify-items: center;
+          width: 100%;
+          /* margin-left: 25%; */
+          /* margin-top: 30%; */
+          background-color: white;
+          border: 5px solid red;
+          padding: 8px;
+          background-color: blue;
+       
+          
+        }
+      .nondiv{
+          display: flex;
+          /* background-color: black; */
+          height:800%;
+          width:840px;
+          align-items: center;
+          left: 30%;
+          margin-left:15%;
+          border: 5px solid green;
+          padding: 4%;
+          background-color: aqua;
+
+
+      }
+      .input, button{
+        height: 54px;
+        width: 50em;
+        background-color: blue;
+        color: khaki;
+      }
+    button{
+        height: 54px;
+        width: 50em;
+       background-color: brown;
+        color: khaki;
+        margin-left:120px;
+      }
+      #radio{
+background-color: khaki;
+      }
+      .checkbox{
+          background-color: khaki;
+      }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>freeCodeCamp Survey Form</h1>
+        <p> Thank you for taking the time to help us improve the platform</p>
+    </section>
+    
+        
+  
+   <div class="nondiv">
+    <form action="">
+
+        <label class="input"  for="" >Name</label>
+        <input class="input" type="text" placeholder="Your Name">
+        <label  class="input" for="">Email</label>
+        <input  class="input" type="text" placeholder="your Email">
+        <label class="input"  for="" placeholdre="Age">Age(Optional)</label>
+        <input class="input" type="text" >
+        <label class="input"  for="">Which option best describes your current role?</label>
+        <select name = "dropdown" class="input">
+            <option  value = "taj" selected disabled>Select</option>
+            <option value = "china">Great Wall of China</option>
+            <option value = "chirst" required>Christ the Redeemer Satue</option>
+            <option value = "machu" >Machu Picchu</option>
+            <option value = "chichen">Chichen Itza</option>
+            <option value = "colossem">The Roman Colosseum</option>
+            <option value = "petra">Petra</option>
+            </select>
+       
+        <label class="input" for="">Would you recommend freeCodeCamp to a friend?</label>
+        <div id="radio">
+            <input type="radio"name="gender"><label for="" name="r">None</label><br>
+            <input type="radio"name="gender"><label for="" name="r">None</label><br>
+            <input type="radio"name="gender"><label for="" name="r">None</label>
+        </div>
+
+        <label class="input" for="">What is your favorite feature of freeCodeCamp?</label>
+        <select name = "dropdown" class="input">
+            <option  value = "taj" selected disabled>Select</option>
+            <option value = "china">Great Wall of China</option>
+            <option value = "chirst" required>Christ the Redeemer Satue</option>
+            <option value = "machu" >Machu Picchu</option>
+            <option value = "chichen">Chichen Itza</option>
+            <option value = "colossem">The Roman Colosseum</option>
+            <option value = "petra">Petra</option>
+            </select>
+        <label class="input" for="">What would you like to see improved? (Check all that apply)</label>
+  
+        <div class="checkbox">
+        
+            <input  class="checkbox"type="checkbox"><label for="">One</label><br>
+            <input class="checkbox"  type="checkbox"><label for="">One</label><br>
+            <input class="checkbox" type="checkbox"><label for="">One</label><br>
+            <input class="checkbox"  type="checkbox"><label for="">One</label><br>
+            <input class="checkbox"  type="checkbox"><label for="">One</label><br>
+            <input class="checkbox"  type="checkbox"><label for="">One</label><br>
+        </div>
+    
+    
+    
+        <label class="input" for="">Any comments or suggestions?</label>
+        <textarea id="textarea" name="textarea" class="input1" rows="4" cols="50">
+            ologies.
+            </textarea><br><br>
+        <button class="" type="submit" class="btn btn-primary">Submit</button>
+    </form>
+   </div>
+</body>
+</html>
