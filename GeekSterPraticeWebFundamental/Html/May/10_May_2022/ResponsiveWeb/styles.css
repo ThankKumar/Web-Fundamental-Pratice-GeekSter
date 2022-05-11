@@ -4,6 +4,8 @@ booy{
     font-family: "mulish", sans-serif;
     margin: 0;
     padding: 0;
+overflow: hidden;
+  
 
 }
 .navbar{
@@ -90,6 +92,7 @@ booy{
 }
 .bannerImg{
     border-radius: 50%;
+    opacity: 0.5;
 }
 .banner .content{
     /* display: flex;
@@ -167,6 +170,7 @@ left: 30%;
     color: var(--secondary-color);
     background-color: var(rgba(214, 227, 335,0.5));
     padding: 2% 6%;
+    
 
 
 }
@@ -202,4 +206,159 @@ line-height: 32px;
 letter-spacing: 0.3%;
 color: var(--text-color);
 margin-bottom: 15px;
+}
+
+/* Galary Section */
+.gallery .images{
+    display: flex;
+    justify-content:space-around;
+    
+}
+.gallery .content{
+    font-size: 42px;
+    font-weight: var(--background-color);
+    margin-bottom: 4%;
+    margin-left: 50%;
+    margin-top: 50%;
+    
+}
+
+/* Video And Image Section */
+.video-demo{
+    display:flex;
+    width: 100%; 
+   /* flex-direction: row-reverse; */
+  
+
+}
+.video-demo .content{
+    background-color: var(--orange-color);
+    color: var(--white-color);
+    padding: 100px 200px 100px 300px;
+    width: 40%;
+}
+.video-demo .content h1{
+    font-size: 42px;
+    line-height: 50px;
+}
+
+.video-demo .video-content{
+    background: url("pexels-andre-moura-9864031.jpg");
+    background-repeat: no-repeat;
+    width: 60%;
+    opacity: 0.5;
+   position: relative;
+}
+.video-content  .video a{
+    color: var(--white-color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.video a{
+    color: var(--white-color);
+    width: 90px;
+    height: 90px;
+    border: 3px solid var(--white-color) ;
+    border-radius: 50%;
+    background: transparent;
+text-align: center;
+line-height: 90px;
+}
+
+
+
+/* Newsletter Section */
+.newsletter{
+    text-align: center;
+    width: 30%;
+}
+.newsletter .content h1{
+    font-size:42px ;
+    line-height: 50px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    opacity: 0.9;
+    color: var(--text-color);}
+.newsletter .content p{
+    font-size: 17px;
+    line-height: 30px;
+    color: var(--text-color);
+    opacity: 0.7;
+
+
+    }
+
+.form .form-control {
+     border-radius: 10px 0px 0px 10px; 
+    height: 36px;
+    border: 1px solid var(--secondary-color);
+    font-family: "mulish", sans-serif;
+    font-size: 17px;
+     line-height: 30px;
+    padding: 4%;
+    width: 100%; 
+}
+.form{
+    display: flex;
+
+}
+.form .btn{
+    margin-top:0%;
+    min-width: 200px;
+    height: 74px;
+    border-radius: 0px 10px 10px 0px;
+    width: 100%;
+    background-color: var(--secondary-color);
+    text-transform: uppercase;
+    color: var(--white-color);
+    cursor: pointer;
+    line-height: 20px;
+    font-size: 13px;
+    letter-spacing: 4px;
+    font-weight: 600;
+    border: 1px solid var(--secondary-color);
+}
+.newsletter-form{
+    margin-top: 4%;
+}
+
+/* Footer Section */
+.footer .wrapper{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 4%;
+    margin: 2% 0%;
+    margin-bottom: 2%;
+    
+}
+.wrapper .items ul li{
+    list-style-type: none;
+    font-size: 17px;
+    line-height: 30px;
+    padding: 6% 0%;
+    color: var(--text-color);
+    opacity: 0.7;
+ 
+    font-weight: 500;
+}
+.footer{
+    border-radius: 30px;
+    background-color: var(--background-color);
+    margin: 80px 60px 0px 50px;
+    width: 95%;
+    padding: 4% 0%;
+
+}
+.wrapper .items p{
+    font-weight: 700px;
+    font-size: 13px;
+  
+    line-height: 22px;
+    letter-spacing: 4px;
+    color: var(--text-color);
+
+}
+.wrapper .items ul{
+    padding: 0%;
 }
