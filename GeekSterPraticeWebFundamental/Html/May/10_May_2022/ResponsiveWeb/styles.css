@@ -53,6 +53,9 @@ booy{
     display: flex;
     justify-content: space-between;
      align-items: center;
+     vw -width
+     vh - height
+     flex-flow: comibination of flex-direction flex-wrap 
     z-index: 1;
 
 } 
@@ -269,7 +272,7 @@ margin-bottom: 15px;
     color: var(--white-color);
     padding: 100px 200px 100px 300px;
     width: 40%;
-    /* border: 5px solid green; */
+    border: 5px solid green;
      border-radius: 20px 0px 0px 10px;
 }
 
@@ -296,6 +299,7 @@ margin-bottom: 15px;
 }
 .video-content  .video a{
     color: var(--white-color);
+
     position: absolute;
     top: 50%;
     left: 50%;
@@ -495,8 +499,8 @@ ul li h4{
     .newsletter-form .form{
         display: flex;
         position: relative;
-background-color: blue;
-top: 320px;
+    background-color: blue;
+    top: 320px;
     }
     .newsletter-form .form input{
         border-radius: 10px;

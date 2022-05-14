@@ -1,0 +1,10 @@
+:root{
+   
+    --white-color:#fff;
+    --black-color:#000;
+    --color-button:blue;
+    --body-background:linear-gradient(to right, black, blue,red);
+    --logo-color:khaki;
+    --nav-bar:linear-gradient(to right, red, blue,black);
+    --body-div:rgba(255, 192, 203, 0.413)
+}
