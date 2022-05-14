@@ -1,0 +1,79 @@
+
+#offcanvasExample{
+    background-color: blue;
+}
+.dbox{
+    /* display: flex;
+    justify-content: space-between; */
+    border: 2px solid green;
+    width: 300px;
+    border-radius: 20%;
+    /* align-items: center; */
+}
+.Dashboard_box{
+    display: grid;
+    grid-gap: 1%;
+    position: relative;
+    top: -10%;
+    left:125px;
+    right: 0px;
+
+}
+.row{
+display: flex;
+justify-content: space-between;
+
+}
+/* .Area_chart{
+    display: flex;
+ justify-content: space-between;
+    border: 3px solid red;
+
+
+} */
+/* .dbox2{
+    position: relative;
+    border: 3px solid black;
+    display: flex;
+    justify-content: end;
+    left: 10vh;
+
+} */
+.cookieChart{
+    height: 200px;
+    width: 300px;
+    background-color: blueviolet;
+}
+.bargraph{
+    position: relative;
+    top: 5%;
+}
+.dropdown-toggle{
+    position: relative;
+    top: -30px;
+    left: 13vh;
+  
+}
+.downborder{
+    border: 3px solid black;
+}
+.databorder{
+    border:1px solid black;
+}
+.searchbox{
+    position: relative;    
+    width: 40vh;
+    left: 77%;
+    top: -10vh;
+
+}
+.person{
+    position: relative;
+   left: -80px;
+   border: 9px solid green;
+   top: 30px;
+   
+}
+.itembtn{
+    border: 3px solid;
+}
